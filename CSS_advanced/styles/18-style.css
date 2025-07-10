@@ -37,6 +37,7 @@ html {
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+    --section-tagline-margin: 0;
 
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
@@ -97,6 +98,7 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -125,14 +127,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
     padding: var(--footer-padding);
-}
-
-:root {
-    --section-tagline-margin: 0;
-}
-
-.section-tagline {
-    margin: var(--section-tagline-margin);
 }
 
 ul.row {
