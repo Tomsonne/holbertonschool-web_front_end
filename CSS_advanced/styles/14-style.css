@@ -140,14 +140,3 @@ body {
     color: var(--section-title-color);
 }
 
-.section-tagline {
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
