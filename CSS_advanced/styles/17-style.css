@@ -16,22 +16,34 @@ html {
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
+
     --font-weight-regular: 400;
     --font-weight-bold: 700;
+
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
+
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
 }
 
 body {
@@ -69,6 +81,7 @@ a:active {
 
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
 }
 
 .section-title {
@@ -95,4 +108,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section {
+    padding: var(--section-padding);
+}
+
+.section-body {
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
