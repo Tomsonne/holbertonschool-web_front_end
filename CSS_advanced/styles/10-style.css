@@ -109,7 +109,6 @@ body {
     --section-header-align: center;
 }
 
-/* Nouvelle déclaration à ajouter juste avant .section-tagline */
 .section-header {
     text-align: var(--section-header-align);
 }
